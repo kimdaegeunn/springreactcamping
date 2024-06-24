@@ -18,7 +18,7 @@ spring:
         format_sql: true            # SQL 보기 좋게 출력
         use_sql_comments: true      # SQL 생성시 주석 포함
         highlight_sql: true         # SQL 색깔
-        hbm2ddl.auto: update
+        hbm2ddl.auto: none
     open-in-view: true
     show-sql: true
 
@@ -38,3 +38,6 @@ project:
   folderPath: "files/"
 
 
+youtube:
+  api:
+    key: AIzaSyDOvWqy2w9fgR-o1kR0Pwq_UvUTpC4Ud4w

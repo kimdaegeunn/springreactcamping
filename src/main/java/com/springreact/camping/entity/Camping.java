@@ -19,12 +19,12 @@ public class Camping {
 
     @Column(name = "linei_info")
     private String linei_info;
-//
-//    @Column(name = "info")
-//    private String info;
-//
-//    @Column(name = "sub_info")
-//    private String sub_info;
+
+    @Column(name = "info")
+    private String info;
+
+    @Column(name = "sub_info")
+    private String sub_info;
 
     @Column(name = "induty")
     private String induty;

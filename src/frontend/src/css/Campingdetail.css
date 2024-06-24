@@ -1,9 +1,18 @@
-
+* {
+    line-height : 1.3em;
+    box-sizing : content-box;
+}
 .c-d-page {
-    background-color: #cccccc;
-    padding: 121px 70px 42px 70px;
+    background-color: lightgray;
+    padding: 10px 70px 42px 70px;
     font-family: "Sejong hospital Light";
     display: flex;
+}
+.c-d-left {
+    margin : auto;
+    background-color : #e8e6db;
+    border-radius : 20px;
+    padding : 0 0 10px 5px;
 }
 
 /* left Section */
@@ -12,7 +21,6 @@
     height: 740px;
     display: flex;
     flex-wrap: wrap;
-    background-color: #ffd1d1;
     padding: 8px 10px;
 
 }
@@ -24,16 +32,15 @@
 .d-left-img > img {
     width: 595px;
     height: 405px;
-    border-radius: 20px;
 }
 
 .d-left-box {
     width: 500px;
-    background-color: antiquewhite;
+    background-color: floralwhite;
     padding: 10px 20px;
     margin: 10px 20px;
-    border-radius: 20px;
     font-size: 15px;
+    border-radius: 20px;
 }
 
 .d-left-box tr:first-child > td,
@@ -68,7 +75,7 @@ td, th {
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    background-color: antiquewhite;
+    background-color: floralwhite;
     line-height: 1.4em;
     overflow: auto;
 }
@@ -94,13 +101,17 @@ td, th {
 .d-left-tap > button {
     width: 130px;
     height: 40px;
-    border: 1px solid #efc297;
-    background-color: #ffe6be;
+    border: 1px solid #dfcea9;
+    background-color: #f3ead2;
     font-weight: bold;
 }
 
 .d-left-tap > button:hover {
-    background-color: #c8b392;
+    background-color : #ead6b6;
+}
+.d-left-tap > button:focus,
+.d-left-tap > button:active {
+    background-color : #f3e4b0;
 }
 
 /* campis.정보 */
@@ -136,10 +147,6 @@ td, th {
     background-color: #fdcfcf;
 }
 
-.maps {
-    font-family: "Sejong hospital Light";
-}
-
 .marker-div {
     font-size: 20px;
 }
@@ -161,15 +168,16 @@ td, th {
 
 /* 플립효과 */
 .card {
-    padding-right: 30px;
+
 }
 
 .wrap {
     position: relative;
+    top : 10px;
+    left : 15px;
     margin-right: 20px;
     width: 595px;
     height: 405px;
-    border-radius: 20px;
     perspective: 500px;
 
 }
@@ -183,14 +191,12 @@ td, th {
 
 .wrap .card > div {
     position: absolute;
-    top: 5px;
     left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     font-size: 20px;
-    border-radius: 20px;
     backface-visibility: hidden;
 }
 
@@ -224,12 +230,12 @@ td, th {
     left: 4px;
     transform: translateY(-50%);
     border-radius: 50%;
-    background: #efc277;
+    background: #efdba7;
 }
 
 /* 체크박스가 체크되면 변경 이벤트 */
 #toggle:checked ~ .toggleSwitch {
-    background: #efc277;
+    background: #efdba7;
 }
 
 #toggle:checked ~ .toggleSwitch .toggleButton {

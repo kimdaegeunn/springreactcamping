@@ -1,7 +1,8 @@
 import React from "react";
 
-import '../css/reset.css'
-import '../css/style.css'
+import '../css/reset.css';
+import '../css/style.css';
+import '../App.css';
 import cardBg01 from "../img/card_bg01.jpg";
 import cardBg02 from "../img/card_bg02.jpg";
 import cardBg03 from "../img/card_bg03.jpg";
@@ -12,18 +13,18 @@ function Main() {
     const cardInfo = [
         {
             img: cardBg01,
-            title: "캠핑 준비물 챙기기",
-            desc: "사이트를 만들기 위한 기초 강의입니다. 기본 코딩에 대한 감각을 익히고, 웹 표준을 준수하면서 코딩하는 방법을 익힙니다. 다양한 예제를 통해 사이트를 만드는 방법입니다."
+            title: "Camping Tip's",
+            desc: "자연 속에서 더 편안하고 즐거운 캠핑을 즐기기 위한 유용한 팁과 노하우를 소개합니다. 캠핑 전문가들의 조언을 통해 더 안전하고 재미있는 캠핑을 경험해보세요"
         },
         {
             img: cardBg02,
-            title: "캠핑 요리 만들기",
-            desc: "웹표준 사이트를 완성하고, 반응형을 익히는 사이트입니다. 기본 코딩을 익히고, 반응형 감각을 키우면 모바일 및 반응형 사이트도 만들 수 있습니다. 웹표준 사이트를........"
+            title: "Camping Recipes",
+            desc: "야외에서 쉽게 만들 수 있는 맛있는 캠핑 요리들을 소개합니다. 자연 속에서 즐기는 특별한 식사를 위한 간편하고 다양한 레시피를 만나보세요!"
         },
         {
             img: cardBg03,
-            title: "캠핑 용품 사러가기",
-            desc: "기업 사이트 중 50% 이상이 패랙렉스 스크로링 효과로 만들어져 있습니다. 웹 표준, 반응형 사이트를 완성하였다면, 이제는 인터랙티브한 패랠렉스 스크롤링 사이트를...."
+            title: "Camping Shop",
+            desc: "캠핑에 필요한 모든 장비와 용품을 한곳에서 편리하게 쇼핑하세요. 고품질 캠핑 기어부터 실용적인 아이템까지, 캠핑을 완벽하게 준비할 수 있습니다!"
         }
     ]
     return (
@@ -49,12 +50,12 @@ function Main() {
 
 
     <div className="banner_inner">
-        <h3 className="title">에휴 하기싫어요</h3>
+        <h3 className="title">Camping Theme</h3>
         <p className="desc">
-           끝나고 배그나 같이 합시다
-            <a href="/" title="유튜브 페이지 이동">youtube.com/bluebo2</a>
+          #수영장 #바다 #산 #불멍 #바베큐
+            <a href="/" title="유튜브 페이지 이동">테마별로 놀러가자~</a>
         </p>
-        <span className="small">배너 유형01</span>
+
     </div>
 
     <div className="card-box">
@@ -90,24 +91,18 @@ function Main() {
         <div className="image__inner container">
             <article className="image img1">
                 <h3 className="image__title">김대근</h3>
-                <p className="image__desc">왤 케 하 기 가 싫 냐 </p>
+                <p className="image__desc"> Github ~ </p>
                 <a className="image__btn" href="/">자세히 보기</a>
             </article>
             <article className="image img2">
                 <h3 className="image__title">장준희</h3>
-                <p className="image__desc">왤 케 하 기 가 싫 냐 </p>
+                <p className="image__desc">Github ~ </p>
                 <a className="image__btn yellow" href="/">자세히 보기</a>
             </article>
         </div>
     </div>
 
-    <div className="footer-box">
 
-        <div className="footer__right">
-            2023-12-21 ~ 2024-06-26 <br/>codelab akademy
-        </div>
-
-    </div>
         </div>
     );
 }

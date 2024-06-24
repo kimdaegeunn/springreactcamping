@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #cccccc;
 }
 
 .nav {
@@ -13,7 +14,6 @@ body {
   height: 100px;
   background-color: rgba(51, 51, 51); /* 흑색 배경에 50%의 투명도 적용 */
   z-index: 1;
-  border-bottom: #ffffff 1px solid;
 }
 
 .nav ul {
@@ -162,6 +162,9 @@ body {
 /* footer__menu */
 .footer-box {
   margin-top: 40px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
 .footer__menu {
   display: flex;

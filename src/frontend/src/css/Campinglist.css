@@ -1,8 +1,7 @@
 
 .c-l-page {
-    font-family: "Sejong hospital Light";
     padding-top: 110px;
-    background-color: #cccccc;
+    background-color: lightgray;
 }
 
 .select-result {
@@ -52,7 +51,6 @@
 
 .region-list-div > button > img {
     position: relative;
-    right: 7px;
     bottom: 3px;
 }
 
@@ -148,7 +146,7 @@
 .text-do-sigungu {
     font-size: 24px;
     margin: 10px 0;
-    color: #626262;
+    color: #565656;
 }
 
 .text-line-info {
@@ -168,7 +166,7 @@
 
 .text-addr-box > img {
     position: relative;
-    top: 5px;
+    top: 1px;
 }
 
 .text-addr {
@@ -243,7 +241,7 @@
 #search-left > img {
     width: 25px;
     position: relative;
-    top: 7px;
+    top: 11px;
     right: 38px;
 }
 
@@ -280,7 +278,6 @@
     display: flex;
     justify-content: space-between;
     margin: 30px auto 0;
-    background-color: rgb(202, 202, 202);
     border-radius: 30px;
     padding: 2px;
     font-weight: bold;

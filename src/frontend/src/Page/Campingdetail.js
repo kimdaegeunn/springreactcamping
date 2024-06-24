@@ -151,9 +151,6 @@ function Campingdetail() {
                             </div>
                         </div>
                     </div>
-                    <div className='c-d-right'>
-                        안녕하세요
-                    </div>
                 </>
             ) : (
                 <div>

@@ -328,11 +328,11 @@ function Campinglist() {
                                                 <span className='text-camp-name'>{campi.camp_name}</span>
                                             </div>
                                             <div className='text-line-info'>{campi.line_info}</div>
-                                            {/*<div className='text-addr-box'>*/}
-                                            {/*    <img src='https://www.gocamping.or.kr/img/2018/sub/ico_map01.png'*/}
-                                            {/*         alt='map icon'/>*/}
-                                            {/*    <span className='text-addr'>{campi.addr}</span>*/}
-                                            {/*</div>*/}
+                                            <div className='text-addr-box'>
+                                                <img src='https://www.gocamping.or.kr/img/2018/sub/ico_map01.png'
+                                                     alt='map icon'/>
+                                                <span className='text-addr'>{campi.addr}</span>
+                                            </div>
                                         </div>
                                         <div className='result-icon-box'>
                                             <ul className='icon-box'>

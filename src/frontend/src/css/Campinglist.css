@@ -1,0 +1,345 @@
+
+.c-l-page {
+    font-family: "Sejong hospital Light";
+    padding-top: 110px;
+    background-color: #cccccc;
+}
+
+.select-result {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    width: 1650px;
+    height: 320px;
+}
+
+.select-list {
+    width: 80%;
+    margin: auto;
+    font-weight: bold;
+}
+
+.slick-list {
+    position: relative;
+    top: 25px;
+    height: 150px;
+    outline: none;
+    text-align: center;
+}
+
+.slick-prev {
+    position: relative;
+    top: 107px;
+}
+
+.slick-next {
+    position: relative;
+    left: 1194px;
+    bottom: 62px;
+}
+
+.region-list-div {
+    position: relative;
+    top: 15px;
+}
+
+.region-list-div > button {
+    width: 95px;
+    height: 95px;
+    border-radius: 80px;
+    border: none;
+}
+
+.region-list-div > button > img {
+    position: relative;
+    right: 7px;
+    bottom: 3px;
+}
+
+.region-list-div > button > img:hover {
+    border-radius: 80px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.search-result {
+    width: 1335px;
+    margin: auto;
+}
+
+.search-result > ul {
+    list-style-type: none;
+}
+
+.search-result > ul > a {
+    text-decoration: none;
+    color: black;
+}
+
+.search-none {
+    border-bottom: 1px solid gray;
+    display: flex;
+    padding: 20px 30px;
+    width: 1230px;
+    background-color: #dcdcdc;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.search-result > ul > a > li {
+    border-bottom: 1px solid gray;
+    display: flex;
+    padding: 20px 30px;
+    width: 1230px;
+    background-color: #dcdcdc;
+    margin: 0 auto;
+}
+
+.search-result-text {
+    margin-left: 20px;
+    height: 100px;
+    font-weight: bold;
+}
+
+/*visible tap 관련*/
+.search-tap {
+    display: flex;
+    width: 4%;
+    flex-direction: column;
+}
+
+.search-tap > button {
+    width: 140px;
+    height: 40px;
+    position: relative;
+    right: 50px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.visible-tap {
+    width: 90%;
+}
+
+.region-text {
+    width: 1230px;
+    padding: 0 40px;
+    margin: auto;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.search-result2 {
+    margin-top: 20px;
+    display: flex;
+}
+
+.text-title-box {
+    margin-bottom: 18px;
+}
+
+.text-camp-name {
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.text-do-sigungu {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #626262;
+}
+
+.text-line-info {
+    width: 420px;
+    height: 25px;
+    font-size: 18px;
+    color: #4d4d4d;
+    margin: 10px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.text-addr-box {
+    flex-direction: row;
+}
+
+.text-addr-box > img {
+    position: relative;
+    top: 5px;
+}
+
+.text-addr {
+    margin: 1px 0 2px 3px;
+}
+
+.camping-imgurl {
+    width: 320px;
+    height: 240px;
+}
+
+.result-icon-box {
+    margin: 15px 0 0 20px;
+    height: 110px;
+    background-color: white;
+}
+
+.icon-box {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: 0 12px;
+    padding: 0;
+    height: 110px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.icon-box > li {
+    width: 68px;
+    padding: 0 6px;
+    height: auto;
+}
+
+.icon-box > li > img {
+    margin-bottom: 4px;
+}
+
+#search-box {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+#search-left {
+    text-align: center;
+    width: 520px;
+    height: 48px;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 30px;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .2);
+}
+
+#search-left input {
+    text-align: center;
+    width: 380px;
+    height: 45px;
+    border: none;
+    font-size: 16px;
+    border-radius: 30px;
+    position: relative;
+    right: 28px;
+
+}
+
+#search-left input:focus {
+    outline: none;
+}
+
+#search-left > img {
+    width: 25px;
+    position: relative;
+    top: 7px;
+    right: 38px;
+}
+
+#search-right {
+    height: 50px;
+}
+
+#search-right > button {
+    width: 55px;
+    height: 35px;
+    border: none;
+    position: relative;
+    font-size: 14px;
+    top: 7px;
+    right: 63px;
+    background-color: #5eb75e;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+#search-right > button:hover {
+    background-color: #93e693;
+    cursor: pointer;
+}
+
+#search-box > form {
+    display: flex;
+    height: 50px;
+}
+
+/* tap-box */
+.induty-tap {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto 0;
+    background-color: rgb(202, 202, 202);
+    border-radius: 30px;
+    padding: 2px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.induty-tap > div {
+    width: 170px;
+    height: 170px;
+    border-radius: 15px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+    opacity: 1;
+}
+
+.induty-general {
+    background-image: url("/public/image/camp-1.jpg");
+}
+
+.induty-car {
+    background-image: url("/public/image/camp-2.jpg");
+}
+
+.induty-glamping {
+    background-image: url("/public/image/camp-3.jpg");
+}
+
+.induty-caravan {
+    background-image: url("/public/image/camp-4.jpg");
+}
+
+.induty-tap > div:hover {
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.induty-text {
+    position: relative;
+    top: 175px;
+}
+
+/*페이징 처리*/
+.pagination {
+    text-align: center;
+    margin-top: 40px;
+    height: 80px;
+    font-size: 20px;
+}
+
+.pagination > button {
+    width: 55px;
+    height: 35px;
+    font-size: 16px;
+}
+
+.page-number {
+    margin: 0 8px;
+}

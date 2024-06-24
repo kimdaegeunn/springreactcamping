@@ -1,0 +1,256 @@
+
+.c-d-page {
+    background-color: #cccccc;
+    padding: 121px 70px 42px 70px;
+    font-family: "Sejong hospital Light";
+    display: flex;
+}
+
+/* left Section */
+.d-left-section {
+    width: 1200px;
+    height: 740px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffd1d1;
+    padding: 8px 10px;
+
+}
+
+.d-left-img {
+    text-align: center;
+}
+
+.d-left-img > img {
+    width: 595px;
+    height: 405px;
+    border-radius: 20px;
+}
+
+.d-left-box {
+    width: 500px;
+    background-color: antiquewhite;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.d-left-box tr:first-child > td,
+.d-left-box tr:first-child > th {
+    border-top: 2px solid #cccccc;
+}
+
+table {
+    width: 490px;
+    margin: auto;
+}
+
+td, th {
+    border-bottom: 1px solid #cccccc;
+}
+
+.d-left-box th {
+    width: 32%;
+    padding: 12px 1px;
+}
+
+.d-left-box td {
+    width: 68%;
+    padding: 12px 1px;
+}
+
+.d-left-info {
+    width: 1115px;
+    height: 230px;
+    padding: 12px 20px;
+    margin: 0 15px 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: antiquewhite;
+    line-height: 1.4em;
+    overflow: auto;
+}
+
+.d-left-info::-webkit-scrollbar {
+    width: 8px; /* 스크롤바 너비 지정 */
+}
+
+.d-left-info::-webkit-scrollbar-thumb {
+    background-color: darkgray; /* 스크롤바 색상 지정 */
+    border-radius: 4px; /* 스크롤바의 모양을 둥글게 만듦 */
+}
+
+.d-left-info::-webkit-scrollbar-track {
+    background-color: lightgray; /* 스크롤바 트랙 색상 지정 */
+}
+
+/* left Button */
+.d-left-tap {
+    margin-left: 14px;
+}
+
+.d-left-tap > button {
+    width: 130px;
+    height: 40px;
+    border: 1px solid #efc297;
+    background-color: #ffe6be;
+    font-weight: bold;
+}
+
+.d-left-tap > button:hover {
+    background-color: #c8b392;
+}
+
+/* campis.정보 */
+.d-l-text-name {
+    font-weight: bold;
+}
+
+.detail-icon-box {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: 0 12px;
+    padding: 0;
+    height: 110px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.detail-icon-box > li {
+    width: 68px;
+    padding: 0 6px;
+    height: auto;
+}
+
+.detail-icon-box > li > img {
+    margin-bottom: 4px;
+}
+
+/* right css*/
+.c-d-right {
+    width: 900px;
+    height: 756px;
+    background-color: #fdcfcf;
+}
+
+.maps {
+    font-family: "Sejong hospital Light";
+}
+
+.marker-div {
+    font-size: 20px;
+}
+
+.rotate-tap {
+    position: relative;
+    left: 50px;
+    display: flex;
+}
+
+.rotate-text {
+    margin-top: 7px;
+    font-size: 18px;
+}
+
+.rotate-button {
+    margin-left: 5px;
+}
+
+/* 플립효과 */
+.card {
+    padding-right: 30px;
+}
+
+.wrap {
+    position: relative;
+    margin-right: 20px;
+    width: 595px;
+    height: 405px;
+    border-radius: 20px;
+    perspective: 500px;
+
+}
+
+.wrap .card {
+    width: 100%;
+    height: 100%;
+    transition: all .5s;
+    transform-style: preserve-3d;
+}
+
+.wrap .card > div {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 20px;
+    backface-visibility: hidden;
+}
+
+.wrap .card .d-left-img {
+    z-index: 10;
+}
+
+.wrap .card .maps {
+    z-index: 5;
+    transform: rotateY(180deg);
+}
+
+.toggleSwitch {
+    width: 60px;
+    height: 30px;
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 16px 3px rgba(0 0 0 / 15%);
+    cursor: pointer;
+}
+
+/* 토글 버튼 */
+.toggleSwitch .toggleButton {
+    /* 버튼은 토글보다 작아야함  */
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 4px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: #efc277;
+}
+
+/* 체크박스가 체크되면 변경 이벤트 */
+#toggle:checked ~ .toggleSwitch {
+    background: #efc277;
+}
+
+#toggle:checked ~ .toggleSwitch .toggleButton {
+    left: calc(100% - 24px);
+    background: #fff;
+}
+
+.toggleSwitch, .toggleButton {
+    transition: all 0.2s ease-in;
+}
+
+/*기타 주요시설 컴포넌트*/
+.facility > table {
+    width: 1100px;
+}
+
+.facility th {
+    width: 17%;
+}
+
+.facility th,
+.facility td {
+    padding: 5px 3px;
+}

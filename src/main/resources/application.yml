@@ -38,6 +38,6 @@ project:
   folderPath: "files/"
 
 
-youtube:
-  api:
-    key: AIzaSyDOvWqy2w9fgR-o1kR0Pwq_UvUTpC4Ud4w
+#youtube:
+#  api:
+#    key: AIzaSyDOvWqy2w9fgR-o1kR0Pwq_UvUTpC4Ud4w
